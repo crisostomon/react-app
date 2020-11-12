@@ -1,7 +1,8 @@
 name: CI
 on:
-  pull-request:
-    branches: [develop]
+  pull_request:
+    branches:
+      - develop
 
 jobs:
   build:
